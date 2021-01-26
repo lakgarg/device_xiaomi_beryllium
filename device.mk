@@ -76,8 +76,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.8.vendor \
     vendor.display.config@1.9.vendor
 
-# GoogleCamera
-$(call inherit-product, packages/apps/GoogleCamera/gcam.mk)
+# GoogleCameraGo
+$(call inherit-product, packages/apps/GoogleCameraGo/gcam.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
