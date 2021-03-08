@@ -12,6 +12,9 @@ WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_beryllium
 PRODUCT_DEVICE := beryllium
