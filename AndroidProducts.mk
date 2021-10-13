@@ -14,4 +14,6 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_beryllium.mk
+    $(LOCAL_DIR)/potato_beryllium.mk
+
+
